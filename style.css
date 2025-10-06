@@ -1,0 +1,33 @@
+h1 {
+  position: absolute; 
+  top: 0%;            
+  left: 28%;         
+}
+
+.inledning {
+  position: relative;
+  top: 15%;          
+  left: 19%;         
+  width: 60%;        
+}
+.inledning p {
+  margin: 10px 0;    
+}
+
+
+.background{
+background-image: url("Book_background.png");
+position:relative;
+width: 100%;
+height:100vh;
+background-position: center;  
+z-index: 0; 
+background-repeat: no-repeat;
+background-size: cover; 
+}
+
+.bilder_sida2{
+  background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2024/11/Minecraft-Logo-featured.jpg");
+  position:relative;
+  z-index: 1;
+  }
